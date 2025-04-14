@@ -24,4 +24,4 @@ flex-wrap: nowrap;
 justify-content: center;//옵션에서 됨
         align-content: right;//옵션에서 안됨 왜??
 ```
-      
+https://flexboxfroggy.com/#ko //웹 연습

@@ -61,3 +61,23 @@ grid-auto-rows: minmax(100px, auto);//최소 100에서 나머지는 auto로로
 
           display: block;//원래 실행되는대로로
 ```
+
+#grid-7
+행 열 자리 차지 방법(areas)
+```
+        grid-template-areas: ;
+
+
+        grid-template-areas:
+          "box1 box1 box1"
+          "box2 box3 box3"
+          "box2 box4 box5";
+        
+        
+        .box1 {
+        background-color: #3689ff;
+        grid-area: box1;
+      }
+      
+```
+

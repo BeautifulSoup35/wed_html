@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>글자색 바꾸기</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      h1 {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">자바스크립트</h1>
+    <p id="text">위 텍스트를 클릭해 보세요</p>
+
+    <!-- Do it! 내부 스크립트 코드 작성하기 -->
+    <!-- <script>
+      var heading = document.querySelector("#heading");
+      heading.onclick = function () {
+        heading.style.color = "red";
+      };
+    </script> //똑같은 기능들-->
+    <script src="js/change-color.js"></script>
+    <script>
+      alert("안녕하세요?"); //단순 알림
+      let reply = confirm("안녕"); //확인 취소 까지//t/f 반환값이 있다
+      alert(reply);
+      let reple = prompt("뭘 원하시죠", "yes"); //빈칸 채울수도 있음음
+      alert(reple);
+      document.write("<h1>" + reple + "</h1>");
+      console.log("결과 :" + reple);
+    </script>
+  </body>
+</html>

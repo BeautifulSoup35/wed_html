@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>prompt</title>
+  </head>
+  <body>
+    <script>
+      // Do it! 변수 선언하기 및 값 할당하기
+      //   var val = 10;// let, val(전역변수 느낌낌)
+      //   {var var1 = 1;}// 접근 가능
+      //   {let var2 = 2;}//접근 불가능
+      //   {const var3 = 30;}// 재할당 불가능 ex) car3 = 40;
+      //   //추천: 지역과 const를 쓰는걸 추천천
+      //   console/log(var1);
+      let userNumber = prompt("숫자를 입력하세요:");
+      if (userNumber != null) {
+        alert("3의 배수입니다.");
+      } else {
+        // if (userNumber != NaN && userNumber % 3 == 0) alert("3의 배수입니다");
+        // else {
+        //   alert("3의 배수가 아닙니다");
+        // }
+        userNumber != NaN && userNumber % 3 == 0
+          ? alert("3의 배수입니다")
+          : alert("3의 배수가 아닙니다");
+      }
+
+      let reply = confirm("확인");
+      switch (reply) {
+        case true:
+          alert("yes!");
+          break;
+        case false:
+          alert("yes!");
+          break;
+        default:
+          alert("!!!");
+          break;
+      }
+    </script>
+  </body>
+</html>
